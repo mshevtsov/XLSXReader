@@ -1,6 +1,7 @@
 <?php
 date_default_timezone_set('UTC');
-require('XLSXReader.php');
+require('../src/XLSXWorksheet.php');
+require('../src/XLSXReader.php');
 $xlsx = new XLSXReader('sample.xlsx');
 $sheetNames = $xlsx->getSheetNames();
 
