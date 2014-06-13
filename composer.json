@@ -1,7 +1,26 @@
 {
 	"name": "mshevtsov/XLSXReader",
 	"version": "0.4.0",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Sergey Schuchkin",
+			"homepage": "http://www.sibvision.ru",
+			"role": "Developer"
+		},
+		{
+			"name": "Greg Neustaetter",
+			"email": "gneustaetter@gmail.com",
+			"role": "Developer"
+		},
+		{
+			"name": "Mikhail Shevtsov",
+			"email": "mikhail.shevtsov@gmail.com",
+			"homepage": "http://about.me/m_shevtsov",
+			"role": "Maker of Composer package"
+		}
+	],
 	"autoload": {
-		"psr-0": { "": "src/" }
+		"classmap": { "": "src/" }
 	}
 }
