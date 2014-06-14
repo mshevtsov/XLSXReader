@@ -1,5 +1,5 @@
 {
-	"name": "mshevtsov/XLSXReader",
+	"name": "mshevtsov/xlsxreader",
 	"version": "0.4.0",
 	"license": "MIT",
 	"authors": [
@@ -21,6 +21,6 @@
 		}
 	],
 	"autoload": {
-		"psr-0": {"XLSX": "src/"}
+		"psr-0": {"XLSXReader": "XLSXReader"}
 	}
 }
