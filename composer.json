@@ -21,6 +21,6 @@
 		}
 	],
 	"autoload": {
-		"psr-0": {"XLSX": "src/"}
+		"psr-0": {"XLSXReader": "src/"}
 	}
 }
